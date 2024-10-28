@@ -1,69 +1,53 @@
 table{
-width: 40%;
-float: left;
-margin-left: 6.66%;
-}
-
-th,td{
-    text-align: center;
-    border: 2px solid;
-    height: 2.5rem;
-}
-
-th.j1,td.j1{
-    text-align: center;
-    border: 2px solid;
-    height: 2.5rem;
-    background-color: lightblue;
-}
-
-td:hover.j1{
-    background-color: rgb(35, 82, 223);
-}
-
-/* td:clicked{
-    background-color: blue;
-} */
-
-.coordGuia.j1{
-    background-color: darkcyan;
-}
-
-h2.1{
+    width: 40%;
     float: left;
-    width: 50%;
-    background-color: cyan;
-    text-align: center;
-}
-
-th.j2,td.j2{
-    background-color: rgb(247, 143, 143);
-}
-
-td:hover.j2{
-    background-color: rgb(204, 20, 20);
-}
-
-/* td:clicked{
-    background-color: blue;
-} */
-
-.coordGuia.j2{
-    background-color: rgb(237, 75, 75);
-}
-
-h2{
-    float: left;
-    width: 50%;
-    text-align: center;
-}
-
-h2.j1{
-    background-color: darkcyan;
-}
-
-h2.j2{
-    background-color: rgb(237, 75, 75);
-}
-
-
+    margin-left: 6.66%;
+    }
+    
+    th,td{
+        text-align: center;
+        border: 2px solid;
+        height: 2.5rem;
+    }
+    
+    table.j1 td{
+        background-color: lightblue;
+    }
+    
+    td:hover.j1{
+        background-color: rgb(35, 82, 223);
+    }
+    
+    table.j1 .coordGuia{
+        background-color: darkcyan;
+    }
+    
+    table.j2 td{
+        background-color: rgb(247, 143, 143);
+    }
+    
+    td:hover.j2{
+        background-color: rgb(204, 20, 20);
+    }
+    
+    
+    table.j2 .coordGuia{
+        background-color: rgb(237, 75, 75);
+    }
+    
+    h2{
+        float: left;
+        width: 50%;
+        text-align: center;
+    }
+    
+    h2.j1{
+        background-color: darkcyan;
+    }
+    
+    h2.j2{
+        background-color: rgb(237, 75, 75);
+    }
+    
+    
+    
