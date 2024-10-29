@@ -31,12 +31,99 @@
 
         <h2>Instrucciones</h2>
         <nav class="indice">
-            <h3>indice</h3>
+            <h3>Indice</h3>
             <ol>
-                <li></li>
+                <li><a href="#Objetivo">Objetivo del Juego</a></li>
+                <li><a href="#Componentes">Componentes del Juego</a></li>
+                <li><a href="#Preparacion">Preparacion </li>
+                <li><a href="#Turnos">Turnos</a></li>
+                <li><a href="#Impactos">Impactos</a></li>
+                <li><a href="#Hundimiento">Hundimiento</a></li>
+                <li><a href="#Victoria">Victoria</a></li>
+                <li><a href="#Duración">Duración del Turno</a></li>
             </ol>
         </nav>
+        
+        <ol>
+            <li>
+                <h4 id="Objetivo">Objetivo del Juego</h4>
+                <p>Hundir toda la flota enemiga antes que tu oponente hunda la tuya.</p>
+            </li>
 
+            <li>
+                <h4 id="Componentes">Componentes del Juego</h4>
+                <p>Tablero de juego para cada jugador (10x10 cuadrículas). Se debe mostrar el tablero del propio jugador, donde se muestran
+                    la colocación dada a los barcos por parte de dicho jugador, y otra cuadrícula que representa el espacio donde el
+                    contrincante distribuyó sus barcos, y en donde se mostrarán los tiros fallidos o acertados a medida que avanza el 
+                    juego.</p>
+                <h5>Flota de barcos:</h5>
+                <ul>
+                    <li>1 portaaviones (abarca 5 casillas, ya sea en sentido horizontal o vertical)</li>
+                    <li>1 acorazado (4 casillas, ya sea en sentido horizontal o vertical)</li>
+                    <li>1 crucero (3 casillas, ya sea en sentido horizontal o vertical)</li>
+                    <li>1 submarino (3 casillas, ya sea en sentido horizontal o vertical)</li>
+                    <li>1 destructor (2 casillas, ya sea en sentido horizontal o vertical)</li>
+                </ul>
+            </li>
+
+            <li>
+                <h4 id="Preparacion">Preparación</h4>
+                <ul>
+                    <li>Cada jugador coloca sus barcos en el tablero de manera oculta al oponente.</li>
+                    <li>Los barcos pueden colocarse vertical u horizontalmente.</li>
+                    <li>Los barcos no pueden superponerse.</li>
+                </ul>
+            </li>
+
+            <li>
+                <h4 id="Turnos">Turnos</h4>
+                <ul>
+                    <li>Los jugadores se turnan para "disparar" a las casillas del oponente, intentando adivinar la posición de los
+                    barcos enemigos.</li>
+                    <li>Cada disparo se indica seleccionando una casilla en el tablero del oponente.</li>
+                    <li>El jugador a quien le corresponderá "disparar" por primera vez (primer turno) será seleccionado al azar.</li>
+                </ul>
+            </li>
+            
+            <li>
+                <h4 id="Impactos">Impactos</h4>
+                <ul>
+                    <li>Si un jugador acierta un disparo en una casilla que contiene parte de un barco enemigo, se marca un 
+                    "impacto" (hit).</li>
+                    <li>Si el disparo no acierta en ningún barco, se marca un "fallo" (miss).</li>
+                </ul>
+            </li>
+            
+            <li>
+                <h4 id="Hundimiento">Hundimiento</h4>
+                <ul>
+                    <li>Cuando todas las casillas de un barco han sido impactadas, el barco se considera "hundido".</li>
+                    <li>Se debe informar al oponente qué barco ha sido hundido.</li>
+                </ul>
+            </li>
+
+            <li>
+                <h4 id="Victoria">Victoria</h4>
+                <p>El primer jugador en hundir toda la flota enemiga gana la partida.</p>
+            </li>
+
+            <li>
+                <h4 id="Duracion">Duración del Turno</h4>
+                <ul>
+                    <li>Se debe establecer un límite de tiempo para cada turno de 60 segundos (1 minuto) para mantener el ritmo del 
+                    juego.</li>
+                    <li>Si un jugador no realiza su movimiento dentro del límite de tiempo, se considera un turno perdido.</li>
+                </ul>
+            </li>
+        </ol>
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
