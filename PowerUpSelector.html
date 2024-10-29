@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+
+
+
+    <ul>
+        <h2>Crear Sala</h2>
+        <form action="">
+            <label for="salaID">ID de la sala</label>
+            <input type="text" name="salaID" id="salaID" maxlength="16">
+            <br>
+            <br>
+            <label for="nombreAdmin">Nombre Admin</label>
+            <input type="text" name="nombreAdmin" id="nombreAdmin" maxlength="16">
+            <br>
+            <br>
+            <label for="salaID">Cantidad de Jugadores</label>
+            <input type="number" name="salaID" id="salaID" max="4" min="2">
+            <br>
+            <br>
+
+            
+            <h3>Power UPs</h3>
+            <li>
+                <input type="checkbox" id="Sonar" name="Sonar" value="Sonar">
+                <label for="Sonar">Sonar</label><br>
+                <ul>
+                    <li>Disponible mientras el submarino no haya sido hundido.</li>
+                    <li>Revela una casilla al azar de un barco enemigo.</li>
+                    <li>Costo: 5 puntos por uso.</li>
+                </ul>
+                
+            </li>
+            <li>
+                <input type="checkbox" id="avionesDeAtaque" name="avionesDeAtaque" value="avionesDeAtaque">
+                <label for="avionesDeAtaque">Aviones de Ataque</label><br>
+                <ul>
+                    <li>Disponible mientras el portaaviones no haya sido hundido.</li>
+                    <li>Lanza hasta 5 misiles al azar en el tablero enemigo.</li>
+                    <li>Costo: 10 puntos por uso.</li>
+                </ul>
+                
+            </li>
+            <li>
+                <input type="checkbox" id="MinaMarina" name="MinaMarina" value="MinaMarina">
+                <label for="MinaMarina">Mina Marina</label><br>
+                <ul>
+                    <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
+                    <li>Si el enemigo ataca una mina, recibe un "hit" adicional en una casilla adyacente al azar.</li>
+                    <li>Costo: 5 puntos para plantar</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo">
+                <label for="EscudoDefensivo">Escudo Defensivo</label><br>
+                <ul>
+                    <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
+                    <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
+                    <li>Costo: 15 puntos.</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo">
+                <label for="EscudoDefensivo">Escudo Defensivo</label><br>
+                <ul>
+                    <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
+                    <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
+                    <li>Costo: 15 puntos.</li>
+                    <li>Un solo uso por partida.</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="MisilCrucero" name="MisilCrucero" value="MisilCrucero">
+                <label for="MisilCrucero">Misil Crucero</label><br>
+                <ul>
+                    <li>Ataque dirigido a un área de 3x3 casillas.</li>
+                    <li>Costo: 15 puntos.</li>
+                    <li>Tiempo de recarga: 5 turnos.</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="ReparaciónRápida" name="ReparaciónRápida" value="ReparaciónRápida">
+                <label for="ReparaciónRápida">Reparación Rápida</label><br>
+                <ul>
+                    <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
+                    <li>Costo: 10 puntos.</li>
+                    <li>Un solo uso por barco.</li>
+                </ul>
+            </li>
+            <li>
+                <input type="checkbox" id="AtaqueEMP" name="AtaqueEMP" value="AtaqueEMP">
+                <label for="AtaqueEMP">Ataque EMP</label><br>
+                <ul>
+                    <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
+                    <li>Costo: 25 puntos.</li>
+                    <li>Tiempo de recarga: 10 turnos.</li>
+                </ul>
+            </li>
+        </form>
+        <br>
+        <button>Iniciar Partida</button>
+
+    </ul>
+    </body>
+</html>
