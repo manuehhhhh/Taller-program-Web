@@ -11,28 +11,26 @@
     </head>
     <body>
 
-
-
     <ul>
         <h2>Crear Sala</h2>
         <form action="placeholder">
             <label for="salaID">ID de la sala</label>
-            <input type="text" name="salaID" id="salaID" maxlength="16">
+            <input type="text" name="salaID" id="salaID" maxlength="16" method="post">
             <br>
             <br>
             <label for="nombreAdmin">Nombre Admin</label>
-            <input type="text" name="nombreAdmin" id="nombreAdmin" maxlength="16">
+            <input type="text" name="nombreAdmin" id="nombreAdmin" maxlength="16" method="post">
             <br>
             <br>
             <label for="salaID">Cantidad de Jugadores</label>
-            <input type="number" name="salaID" id="salaID" max="4" min="2">
+            <input type="number" name="salaID" id="salaID" max="4" min="2"  method="post">
             <br>
             <br>
 
             
             <h3>Power UPs</h3>
             <li>
-                <input type="checkbox" id="Sonar" name="Sonar" value="Sonar">
+                <input type="checkbox" id="Sonar" name="Sonar" value="Sonar"  method="post">
                 <label for="Sonar">Sonar</label><br>
                 <ul>
                     <li>Disponible mientras el submarino no haya sido hundido.</li>
@@ -42,7 +40,7 @@
                 
             </li>
             <li>
-                <input type="checkbox" id="avionesDeAtaque" name="avionesDeAtaque" value="avionesDeAtaque">
+                <input type="checkbox" id="avionesDeAtaque" name="avionesDeAtaque" value="avionesDeAtaque" method="post">
                 <label for="avionesDeAtaque">Aviones de Ataque</label><br>
                 <ul>
                     <li>Disponible mientras el portaaviones no haya sido hundido.</li>
@@ -52,7 +50,7 @@
                 
             </li>
             <li>
-                <input type="checkbox" id="MinaMarina" name="MinaMarina" value="MinaMarina">
+                <input type="checkbox" id="MinaMarina" name="MinaMarina" value="MinaMarina"  method="post">
                 <label for="MinaMarina">Mina Marina</label><br>
                 <ul>
                     <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
@@ -61,7 +59,7 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo">
+                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo"  method="post">
                 <label for="EscudoDefensivo">Escudo Defensivo</label><br>
                 <ul>
                     <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
@@ -70,7 +68,7 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo">
+                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo"  method="post">
                 <label for="EscudoDefensivo">Escudo Defensivo</label><br>
                 <ul>
                     <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
@@ -80,7 +78,7 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="MisilCrucero" name="MisilCrucero" value="MisilCrucero">
+                <input type="checkbox" id="MisilCrucero" name="MisilCrucero" value="MisilCrucero"  method="post">
                 <label for="MisilCrucero">Misil Crucero</label><br>
                 <ul>
                     <li>Ataque dirigido a un área de 3x3 casillas.</li>
@@ -89,7 +87,7 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="ReparaciónRápida" name="ReparaciónRápida" value="ReparaciónRápida">
+                <input type="checkbox" id="ReparaciónRápida" name="ReparaciónRápida" value="ReparaciónRápida"  method="post">
                 <label for="ReparaciónRápida">Reparación Rápida</label><br>
                 <ul>
                     <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
@@ -98,7 +96,7 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="AtaqueEMP" name="AtaqueEMP" value="AtaqueEMP">
+                <input type="checkbox" id="AtaqueEMP" name="AtaqueEMP" value="AtaqueEMP"  method="post">
                 <label for="AtaqueEMP">Ataque EMP</label><br>
                 <ul>
                     <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
