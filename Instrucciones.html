@@ -1,8 +1,13 @@
-<!DOCTYPE html lang="en-us">
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
     <head>
-        <meta charset="UTF-8">
-        <title>Batalla Naval</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Author" content="Manuel Martinez" />
+        <meta name="Description" content="Jugar Batalla Naval desde 2 a 4 personas" />
+        <meta name="keywords" content="HTML, CSS, JS, Batalla Naval, juego" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Batalla Naval | Instrucciones</title>
     </head>
     <body>
         <header>
@@ -18,7 +23,7 @@
         </header>
 
         <main>
-            <section >
+            <section id="introduccion">
                 <h2>El juego Batalla Naval</h2>
                 <p><b><a href="https://en.wikipedia.org/wiki/Battleship_(game)">Batalla Naval</a></b> es un clásico juego de mesa de estrategia que ha entretenido a generaciones
                 de jugadores desde su creación. El juego fue inventado a principios del siglo XX, aunque su popularidad se disparó después
@@ -32,38 +37,38 @@
                 </p>
             </section>
             
-            <section>
+            <section id="indice">
                 <h2>Instrucciones</h2>
-                <nav class="indice">
+                <nav id="indiceInstrucciones">
                     <h3>Indice</h3>
                     <ol>
-                        <li><a href="#Objetivo">Objetivo del Juego</a></li>
-                        <li><a href="#Componentes">Componentes del Juego</a></li>
-                        <li><a href="#Preparacion">Preparacion </li>
-                        <li><a href="#Turnos">Turnos</a></li>
-                        <li><a href="#Impactos">Impactos</a></li>
-                        <li><a href="#Hundimiento">Hundimiento</a></li>
-                        <li><a href="#Victoria">Victoria</a></li>
-                        <li><a href="#Duración">Duración del Turno</a></li>
+                        <li><a href="#objetivo">Objetivo del Juego</a></li>
+                        <li><a href="#componentes">Componentes del Juego</a></li>
+                        <li><a href="#preparacion">Preparacion </li>
+                        <li><a href="#turnos">Turnos</a></li>
+                        <li><a href="#impactos">Impactos</a></li>
+                        <li><a href="#hundimiento">Hundimiento</a></li>
+                        <li><a href="#victoria">Victoria</a></li>
+                        <li><a href="#duración">Duración del Turno</a></li>
                     </ol>
                 </nav>
             </section>
             
-            <section>
+            <section id="instrucciones">
                 <ol>
-                    <li>
-                        <h4 id="Objetivo">Objetivo del Juego</h4>
+                    <li id="objetivo">
+                        <h4>Objetivo del Juego</h4>
                         <p>Hundir toda la flota enemiga antes que tu oponente hunda la tuya.</p>
                     </li>
     
-                    <li>
-                        <h4 id="Componentes">Componentes del Juego</h4>
+                    <li id="componentes">
+                        <h4>Componentes del Juego</h4>
                         <p>Tablero de juego para cada jugador (10x10 cuadrículas). Se debe mostrar el tablero del propio jugador, donde se muestran
                             la colocación dada a los barcos por parte de dicho jugador, y otra cuadrícula que representa el espacio donde el
                             contrincante distribuyó sus barcos, y en donde se mostrarán los tiros fallidos o acertados a medida que avanza el 
                             juego.</p>
                         <h5>Flota de barcos:</h5>
-                        <ul>
+                        <ul id="listaDePiezas">
                             <li>1 portaaviones (abarca 5 casillas, ya sea en sentido horizontal o vertical)</li>
                             <li>1 acorazado (4 casillas, ya sea en sentido horizontal o vertical)</li>
                             <li>1 crucero (3 casillas, ya sea en sentido horizontal o vertical)</li>
@@ -72,8 +77,8 @@
                         </ul>
                     </li>
     
-                    <li>
-                        <h4 id="Preparacion">Preparación</h4>
+                    <li id="preparacion">
+                        <h4>Preparación</h4>
                         <ul>
                             <li>Cada jugador coloca sus barcos en el tablero de manera oculta al oponente.</li>
                             <li>Los barcos pueden colocarse vertical u horizontalmente.</li>
@@ -81,8 +86,8 @@
                         </ul>
                     </li>
     
-                    <li>
-                        <h4 id="Turnos">Turnos</h4>
+                    <li id="turnos">
+                        <h4>Turnos</h4>
                         <ul>
                             <li>Los jugadores se turnan para "disparar" a las casillas del oponente, intentando adivinar la posición de los
                             barcos enemigos.</li>
@@ -91,8 +96,8 @@
                         </ul>
                     </li>
                     
-                    <li>
-                        <h4 id="Impactos">Impactos</h4>
+                    <li id="impactos">
+                        <h4>Impactos</h4>
                         <ul>
                             <li>Si un jugador acierta un disparo en una casilla que contiene parte de un barco enemigo, se marca un 
                             "impacto" (hit).</li>
@@ -100,21 +105,21 @@
                         </ul>
                     </li>
                     
-                    <li>
-                        <h4 id="Hundimiento">Hundimiento</h4>
+                    <li id="hundimiento">
+                        <h4>Hundimiento</h4>
                         <ul>
                             <li>Cuando todas las casillas de un barco han sido impactadas, el barco se considera "hundido".</li>
                             <li>Se debe informar al oponente qué barco ha sido hundido.</li>
                         </ul>
                     </li>
     
-                    <li>
-                        <h4 id="Victoria">Victoria</h4>
+                    <li id="victoria">
+                        <h4>Victoria</h4>
                         <p>El primer jugador en hundir toda la flota enemiga gana la partida.</p>
                     </li>
     
-                    <li>
-                        <h4 id="Duracion">Duración del Turno</h4>
+                    <li id="duracion">
+                        <h4>Duración del Turno</h4>
                         <ul>
                             <li>Se debe establecer un límite de tiempo para cada turno de 60 segundos (1 minuto) para mantener el ritmo del 
                             juego.</li>

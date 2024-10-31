@@ -22,11 +22,19 @@
             </nav>
         </header>
 
-        <h2>Turno del Jugador: X</h2>
-        <h2 >Tablero del Jugador X</h2>
+        <main>
+
+        </main>
+
+        <div id="datosDelTurno">
+            <h2>Turno del Jugador: X</h2>
+            <h2>Tablero del Jugador X</h2>
+            <h2>Tiempo del Turno Restante: XX:XX</h2>
+        </div>
+        
 
     <div id="tablero">
-        <div class="columnaPrincipal">
+        <div class="filaPrincipal">
             <div>/</div>
             <div>A</div>
             <div>B</div>
@@ -38,7 +46,7 @@
             <div>I</div>
             <div>J</div>
         </div>
-        <div>
+        <div class="primeraFila">
             <div>1</div>
             <div>A</div>
             <div>B</div>
@@ -50,7 +58,7 @@
             <div>I</div>
             <div>J</div>
         </div>
-        <div>
+        <div class="segundaFila">
             <div>2</div>
             <div>A</div>
             <div>B</div>
@@ -62,7 +70,7 @@
             <div>I</div>
             <div>J</div>
         </div>
-        <div>
+        <div class="terceraFila">
             <div>3</div>
             <div>A</div>
             <div>B</div>
@@ -160,11 +168,16 @@
         </div>
 
     </div>
+
+    <aside>Inventario de PowerUPS</aside>
     
-    <button>Ver tablero J1</button> <br> <br>
-    <button>Ver tablero J2</button> <br> <br>
-    <button disabled>Ver tablero J3</button> <br> <br>
-    <button disabled>Ver tablero J4</button>
+    <div id="controlDeTablero">
+        <button>Ver tablero J1</button> 
+        <button>Ver tablero J2</button> 
+        <button disabled>Ver tablero J3</button> 
+        <button disabled>Ver tablero J4</button>
+    </div>
+    
 </body>
     
 </html>
