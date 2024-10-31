@@ -10,7 +10,34 @@
         <title>Batalla Naval | Instrucciones</title>
     </head>
     <body>
-        <h3><a href="PowerUpSelector.html">Modo Normal</a></h3>
-        <h3><a href="torneo.html">Modo Torneo</a></h3>
+        <header>
+            <h1>Batalla Naval</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="instrucciones.html">Instrucciones</a></li>
+                    <li><a href="jugar.html">Jugar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Modos de Juego</h2>
+            <h3>Modo Normal</h3>
+                <ul>
+                    <li><h4><a href="PowerUpSelector.html">Crear Sala</a></h4></li>
+                    <li>
+                        <h4>Unirse a Sala</h4>
+                        <form action="#" method="post">
+                            <label for="nombre-jugador">Nombre jugador</label>
+                            <input type="text" name="nombre-jugador" id="nombre-jugador" maxlength="16" > <br>
+                            <label for="salaID">ID de la sala</label>
+                            <input type="text" name="salaID" id="salaID" maxlength="16" > <br>
+                            <a href="tablero.html">Entrar</a>
+                        </form>
+                    </li>
+                </ul>
+            <h3><a href="torneo.html">Modo Torneo</a></h3>
+        </main>
+        
     </body>
 </html>
