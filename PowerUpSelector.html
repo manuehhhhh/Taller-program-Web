@@ -14,26 +14,26 @@
     <ul>
         <h2>Crear Sala</h2>
         <form action="#" method="post">
-            <label for="salaID">ID de la sala</label>
-            <input type="text" name="salaID" id="salaID" maxlength="16" >
+            <label for="sala-ID">ID de la sala</label>
+            <input type="text" name="sala-ID" id="sala-ID" maxlength="16" >
             <br>
             <br>
             <label for="nombre-jugador">Nombre jugador</label>
             <input type="text" name="nombre-jugador" id="nombre-jugador" maxlength="16" >
             <br>
             <br>
-            <label for="cantidadDeJugadores">Cantidad de Jugadores</label>
-            <input type="number" name="cantidadDeJugadores" id="cantidadDeJugadores" max="4" min="2"  >
+            <label for="cantidad-de-jugadores">Cantidad de Jugadores</label>
+            <input type="number" name="cantidad-de-jugadores" id="cantidad-de-jugadores" max="4" min="2"  >
             <br>
             <br>
-            <label for="cantidadDePuentos">Cantidad de Puntos</label>
-            <input type="number" name="cantidadDePuentos" id="cantidadDePuentos" max="50" min="0"  >
+            <label for="cantidad-de-puntos">Cantidad de Puntos</label>
+            <input type="number" name="cantidad-pe-puentos" id="cantidad-de-puentos" max="50" min="0"  >
 
             
             <h3>Power UPs</h3>
             <li>
-                <input type="checkbox" id="Sonar" name="Sonar" value="Sonar"  >
-                <label for="Sonar">Sonar</label><br>
+                <input type="checkbox" id="sonar" name="sonar" value="sonar"  >
+                <label for="sonar">Sonar</label><br>
                 <ul>
                     <li>Disponible mientras el submarino no haya sido hundido.</li>
                     <li>Revela una casilla al azar de un barco enemigo.</li>
@@ -42,8 +42,8 @@
                 
             </li>
             <li>
-                <input type="checkbox" id="avionesDeAtaque" name="avionesDeAtaque" value="avionesDeAtaque" >
-                <label for="avionesDeAtaque">Aviones de Ataque</label><br>
+                <input type="checkbox" id="aviones-de-ataque" name="aviones-de-ataque" value="aviones-de-ataque" >
+                <label for="aviones-de-ataque">Aviones de Ataque</label><br>
                 <ul>
                     <li>Disponible mientras el portaaviones no haya sido hundido.</li>
                     <li>Lanza hasta 5 misiles al azar en el tablero enemigo.</li>
@@ -52,8 +52,8 @@
                 
             </li>
             <li>
-                <input type="checkbox" id="MinaMarina" name="MinaMarina" value="MinaMarina"  >
-                <label for="MinaMarina">Mina Marina</label><br>
+                <input type="checkbox" id="mina-marina" name="mina-marina" value="mina-marina"  >
+                <label for="mina-marina">Mina Marina</label><br>
                 <ul>
                     <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
                     <li>Si el enemigo ataca una mina, recibe un "hit" adicional en una casilla adyacente al azar.</li>
@@ -61,8 +61,8 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo"  >
-                <label for="EscudoDefensivo">Escudo Defensivo</label><br>
+                <input type="checkbox" id="Escudo-defensivo" name="Escudo-defensivo" value="Escudo-defensivo"  >
+                <label for="Escudo-defensivo">Escudo Defensivo</label><br>
                 <ul>
                     <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
                     <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
@@ -70,18 +70,8 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="EscudoDefensivo" name="EscudoDefensivo" value="EscudoDefensivo"  >
-                <label for="EscudoDefensivo">Escudo Defensivo</label><br>
-                <ul>
-                    <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
-                    <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
-                    <li>Costo: 15 puntos.</li>
-                    <li>Un solo uso por partida.</li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="MisilCrucero" name="MisilCrucero" value="MisilCrucero"  >
-                <label for="MisilCrucero">Misil Crucero</label><br>
+                <input type="checkbox" id="misil-crucero" name="misil-crucero" value="misil-crucero">
+                <label for="misil-crucero">Misil Crucero</label><br>
                 <ul>
                     <li>Ataque dirigido a un área de 3x3 casillas.</li>
                     <li>Costo: 15 puntos.</li>
@@ -89,8 +79,8 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="ReparaciónRápida" name="ReparaciónRápida" value="ReparaciónRápida"  >
-                <label for="ReparaciónRápida">Reparación Rápida</label><br>
+                <input type="checkbox" id="reparación-rápida" name="reparación-rápida" value="reparación-rápida">
+                <label for="reparación-rápida">Reparación Rápida</label><br>
                 <ul>
                     <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
                     <li>Costo: 10 puntos.</li>
@@ -98,8 +88,8 @@
                 </ul>
             </li>
             <li>
-                <input type="checkbox" id="AtaqueEMP" name="AtaqueEMP" value="AtaqueEMP"  >
-                <label for="AtaqueEMP">Ataque EMP</label><br>
+                <input type="checkbox" id="ataque-EMP" name="ataque-EMP" value="ataque-EMP"  >
+                <label for="ataque-EMP">Ataque EMP</label><br>
                 <ul>
                     <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
                     <li>Costo: 25 puntos.</li>
