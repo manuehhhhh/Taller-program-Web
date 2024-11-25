@@ -7,11 +7,13 @@
         <meta name="Description" content="Jugar Batalla Naval desde 2 a 4 personas" />
         <meta name="keywords" content="HTML, CSS, JS, Batalla Naval, juego" />
         <meta name="robots" content="noindex, nofollow" />
+        <link rel="stylesheet" href="barraDeNavegacion.css">
+        <link rel="stylesheet" href="tablero.css">
         <title>Batalla Naval | Instrucciones</title>
     </head>
     <body>
         <header>
-            <h1>Batalla Naval</h1>
+            <h1> <img src="icono-battleship.jpg"> Batalla Naval</h1>
             <nav class="navbar">
                 <ul>
                     <li><a href="inicio.html">Inicio</a></li>
@@ -22,220 +24,321 @@
         </header>
 
         <main>
-            <div id="datos-del-turno">
-                <h2>Turno del Jugador: X</h2>
-                <h2>Tablero del Jugador X</h2>
-                <h2>Tiempo del Turno Restante: XX:XX</h2>
-            </div>
-            
     
-            <div id="tablero-J1">
-                    <div class="position a1">a1</div>
-                    <div class="position a2">a2</div>
-                    <div class="position a3">a3</div>
-                    <div class="position a4">a4</div>
-                    <div class="position a5">a5</div>
-                    <div class="position a6">a6</div>
-                    <div class="position a7">a7</div>
-                    <div class="position a8">a8</div>
-                    <div class="position a9">a9</div>
-                    <div class="position a10">a10</div>
-                    <div class="position b1">b1</div>
-                    <div class="position b2">b2</div>
-                    <div class="position b3">b3</div>
-                    <div class="position b4">b4</div>
-                    <div class="position b5">b5</div>
-                    <div class="position b6">b6</div>
-                    <div class="position b7">b7</div>
-                    <div class="position b8">b8</div>
-                    <div class="position b9">b9</div>
-                    <div class="position b10">b10</div>
-                    <div class="position c1">c1</div>
-                    <div class="position c2">c2</div>
-                    <div class="position c3">c3</div>
-                    <div class="position c4">c4</div>
-                    <div class="position c5">c5</div>
-                    <div class="position c6">c6</div>
-                    <div class="position c7">c7</div>
-                    <div class="position c8">c8</div>
-                    <div class="position c9">c9</div>
-                    <div class="position c10">c10</div>
-                    <div class="position d1">d1</div>
-                    <div class="position d2">d2</div>
-                    <div class="position d3">d3</div>
-                    <div class="position d4">d4</div>
-                    <div class="position d5">d5</div>
-                    <div class="position d6">d6</div>
-                    <div class="position d7">d7</div>
-                    <div class="position d8">d8</div>
-                    <div class="position d9">d9</div>
-                    <div class="position d10">d10</div>
-                    <div class="position f1">e1</div>
-                    <div class="position f2">e2</div>
-                    <div class="position f3">e3</div>
-                    <div class="position f4">e4</div>
-                    <div class="position f5">e5</div>
-                    <div class="position f6">e6</div>
-                    <div class="position f7">e7</div>
-                    <div class="position f8">e8</div>
-                    <div class="position f9">e9</div>
-                    <div class="position f10">e10</div>
-                    <div class="position f1">f1</div>
-                    <div class="position f2">f2</div>
-                    <div class="position f3">f3</div>
-                    <div class="position f4">f4</div>
-                    <div class="position f5">f5</div>
-                    <div class="position f6">f6</div>
-                    <div class="position f7">f7</div>
-                    <div class="position f8">f8</div>
-                    <div class="position f9">f9</div>
-                    <div class="position f10">f10</div>
-                    <div class="position g1">g1</div>
-                    <div class="position g2">g2</div>
-                    <div class="position g3">g3</div>
-                    <div class="position g4">g4</div>
-                    <div class="position g5">g5</div>
-                    <div class="position g6">g6</div>
-                    <div class="position g7">g7</div>
-                    <div class="position g8">g8</div>
-                    <div class="position g9">g9</div>
-                    <div class="position g10">g10</div>
-                    <div class="position h1">h1</div>
-                    <div class="position h2">h2</div>
-                    <div class="position h3">h3</div>
-                    <div class="position h4">h4</div>
-                    <div class="position h5">h5</div>
-                    <div class="position h6">h6</div>
-                    <div class="position h7">h7</div>
-                    <div class="position h8">h8</div>
-                    <div class="position h9">h9</div>
-                    <div class="position h10">h10</div>
-                    <div class="position i1">i1</div>
-                    <div class="position i2">i2</div>
-                    <div class="position i3">i3</div>
-                    <div class="position i4">i4</div>
-                    <div class="position i5">i5</div>
-                    <div class="position i6">i6</div>
-                    <div class="position i7">i7</div>
-                    <div class="position i8">i8</div>
-                    <div class="position i9">i9</div>
-                    <div class="position i10">i10</div>
-                    <div class="position j1">j1</div>
-                    <div class="position j2">j2</div>
-                    <div class="position j3">j3</div>
-                    <div class="position j4">j4</div>
-                    <div class="position j5">j5</div>
-                    <div class="position j6">j6</div>
-                    <div class="position j7">j7</div>
-                    <div class="position j8">j8</div>
-                    <div class="position j9">j9</div>
-                    <div class="position j10">j10</div>
-            </div>
-            <br>
-            <div id="tablero-J2">
-                <div class="position a1">a1</div>
-                <div class="position a2">a2</div>
-                <div class="position a3">a3</div>
-                <div class="position a4">a4</div>
-                <div class="position a5">a5</div>
-                <div class="position a6">a6</div>
-                <div class="position a7">a7</div>
-                <div class="position a8">a8</div>
-                <div class="position a9">a9</div>
-                <div class="position a10">a10</div>
-                <div class="position b1">b1</div>
-                <div class="position b2">b2</div>
-                <div class="position b3">b3</div>
-                <div class="position b4">b4</div>
-                <div class="position b5">b5</div>
-                <div class="position b6">b6</div>
-                <div class="position b7">b7</div>
-                <div class="position b8">b8</div>
-                <div class="position b9">b9</div>
-                <div class="position b10">b10</div>
-                <div class="position c1">c1</div>
-                <div class="position c2">c2</div>
-                <div class="position c3">c3</div>
-                <div class="position c4">c4</div>
-                <div class="position c5">c5</div>
-                <div class="position c6">c6</div>
-                <div class="position c7">c7</div>
-                <div class="position c8">c8</div>
-                <div class="position c9">c9</div>
-                <div class="position c10">c10</div>
-                <div class="position d1">d1</div>
-                <div class="position d2">d2</div>
-                <div class="position d3">d3</div>
-                <div class="position d4">d4</div>
-                <div class="position d5">d5</div>
-                <div class="position d6">d6</div>
-                <div class="position d7">d7</div>
-                <div class="position d8">d8</div>
-                <div class="position d9">d9</div>
-                <div class="position d10">d10</div>
-                <div class="position f1">e1</div>
-                <div class="position f2">e2</div>
-                <div class="position f3">e3</div>
-                <div class="position f4">e4</div>
-                <div class="position f5">e5</div>
-                <div class="position f6">e6</div>
-                <div class="position f7">e7</div>
-                <div class="position f8">e8</div>
-                <div class="position f9">e9</div>
-                <div class="position f10">e10</div>
-                <div class="position f1">f1</div>
-                <div class="position f2">f2</div>
-                <div class="position f3">f3</div>
-                <div class="position f4">f4</div>
-                <div class="position f5">f5</div>
-                <div class="position f6">f6</div>
-                <div class="position f7">f7</div>
-                <div class="position f8">f8</div>
-                <div class="position f9">f9</div>
-                <div class="position f10">f10</div>
-                <div class="position g1">g1</div>
-                <div class="position g2">g2</div>
-                <div class="position g3">g3</div>
-                <div class="position g4">g4</div>
-                <div class="position g5">g5</div>
-                <div class="position g6">g6</div>
-                <div class="position g7">g7</div>
-                <div class="position g8">g8</div>
-                <div class="position g9">g9</div>
-                <div class="position g10">g10</div>
-                <div class="position h1">h1</div>
-                <div class="position h2">h2</div>
-                <div class="position h3">h3</div>
-                <div class="position h4">h4</div>
-                <div class="position h5">h5</div>
-                <div class="position h6">h6</div>
-                <div class="position h7">h7</div>
-                <div class="position h8">h8</div>
-                <div class="position h9">h9</div>
-                <div class="position h10">h10</div>
-                <div class="position i1">i1</div>
-                <div class="position i2">i2</div>
-                <div class="position i3">i3</div>
-                <div class="position i4">i4</div>
-                <div class="position i5">i5</div>
-                <div class="position i6">i6</div>
-                <div class="position i7">i7</div>
-                <div class="position i8">i8</div>
-                <div class="position i9">i9</div>
-                <div class="position i10">i10</div>
-                <div class="position j1">j1</div>
-                <div class="position j2">j2</div>
-                <div class="position j3">j3</div>
-                <div class="position j4">j4</div>
-                <div class="position j5">j5</div>
-                <div class="position j6">j6</div>
-                <div class="position j7">j7</div>
-                <div class="position j8">j8</div>
-                <div class="position j9">j9</div>
-                <div class="position j10">j10</div>
+            <div class="tablero J1">
+                    <div class="position guia">/</div>
+                    <div class="position guia">A</div>
+                    <div class="position guia">B</div>
+                    <div class="position guia">C</div>
+                    <div class="position guia">D</div>
+                    <div class="position guia">E</div>
+                    <div class="position guia">F</div>
+                    <div class="position guia">G</div>
+                    <div class="position guia">H</div>
+                    <div class="position guia">i</div>
+                    <div class="position guia">j</div>
+                    <div class="position guia">1</div>
+                    <div class="position 1A">[]</div>
+                    <div class="position 1B">[]</div>
+                    <div class="position 1C">[]</div>
+                    <div class="position 1D">[]</div>
+                    <div class="position 1E">[]</div>
+                    <div class="position 1F">[]</div>
+                    <div class="position 1G">[]</div>
+                    <div class="position 1H">[]</div>
+                    <div class="position 1I">[]</div>
+                    <div class="position 1J">[]</div>
+                    <div class="position guia">2</div>
+                    <div class="position 2A">[]</div>
+                    <div class="position 2B">[]</div>
+                    <div class="position 2C">[]</div>
+                    <div class="position 2D">[]</div>
+                    <div class="position 2E">[]</div>
+                    <div class="position 2F">[]</div>
+                    <div class="position 2G">[]</div>
+                    <div class="position 2H">[]</div>
+                    <div class="position 2I">[]</div>
+                    <div class="position 2J">[]</div>
+                    <div class="position guia">3</div>
+                    <div class="position 3A">[]</div>
+                    <div class="position 3B">[]</div>
+                    <div class="position 3C">[]</div>
+                    <div class="position 3D">[]</div>
+                    <div class="position 3E">[]</div>
+                    <div class="position 3F">[]</div>
+                    <div class="position 3G">[]</div>
+                    <div class="position 3H">[]</div>
+                    <div class="position 3I">[]</div>
+                    <div class="position 3J">[]</div>
+                    <div class="position guia">4</div>
+                    <div class="position 4A">[]</div>
+                    <div class="position 4B">[]</div>
+                    <div class="position 4C">[]</div>
+                    <div class="position 4D">[]</div>
+                    <div class="position 4E">[]</div>
+                    <div class="position 4F">[]</div>
+                    <div class="position 4G">[]</div>
+                    <div class="position 4H">[]</div>
+                    <div class="position 4I">[]</div>
+                    <div class="position 4J">[]</div>
+                    <div class="position guia">5</div>
+                    <div class="position 5A">[]</div>
+                    <div class="position 5B">[]</div>
+                    <div class="position 5C">[]</div>
+                    <div class="position 5D">[]</div>
+                    <div class="position 5E">[]</div>
+                    <div class="position 5F">[]</div>
+                    <div class="position 5G">[]</div>
+                    <div class="position 5H">[]</div>
+                    <div class="position 5I">[]</div>
+                    <div class="position 5J">[]</div>
+                    <div class="position guia">6</div>
+                    <div class="position 6A">[]</div>
+                    <div class="position 6B">[]</div>
+                    <div class="position 6C">[]</div>
+                    <div class="position 6D">[]</div>
+                    <div class="position 6E">[]</div>
+                    <div class="position 6F">[]</div>
+                    <div class="position 6G">[]</div>
+                    <div class="position 6H">[]</div>
+                    <div class="position 6I">[]</div>
+                    <div class="position 6J">[]</div>
+                    <div class="position guia">7</div>
+                    <div class="position 7A">[]</div>
+                    <div class="position 7B">[]</div>
+                    <div class="position 7C">[]</div>
+                    <div class="position 7D">[]</div>
+                    <div class="position 7E">[]</div>
+                    <div class="position 7F">[]</div>
+                    <div class="position 7G">[]</div>
+                    <div class="position 7H">[]</div>
+                    <div class="position 7I">[]</div>
+                    <div class="position 7J">[]</div>
+                    <div class="position guia">8</div>
+                    <div class="position 8A">[]</div>
+                    <div class="position 8B">[]</div>
+                    <div class="position 8C">[]</div>
+                    <div class="position 8D">[]</div>
+                    <div class="position 8E">[]</div>
+                    <div class="position 8F">[]</div>
+                    <div class="position 8G">[]</div>
+                    <div class="position 8H">[]</div>
+                    <div class="position 8I">[]</div>
+                    <div class="position 8J">[]</div>
+                    <div class="position guia">9</div>
+                    <div class="position 9A">[]</div>
+                    <div class="position 9B">[]</div>
+                    <div class="position 9C">[]</div>
+                    <div class="position 9D">[]</div>
+                    <div class="position 9E">[]</div>
+                    <div class="position 9F">[]</div>
+                    <div class="position 9G">[]</div>
+                    <div class="position 9H">[]</div>
+                    <div class="position 9I">[]</div>
+                    <div class="position 9J">[]</div>
+                    <div class="position guia">10</div>
+                    <div class="position 10A">[]</div>
+                    <div class="position 10B">[]</div>
+                    <div class="position 10C">[]</div>
+                    <div class="position 10D">[]</div>
+                    <div class="position 10E">[]</div>
+                    <div class="position 10F">[]</div>
+                    <div class="position 10G">[]</div>
+                    <div class="position 10H">[]</div>
+                    <div class="position 10I">[]</div>
+                    <div class="position 10J">[]</div>
 
-    
-            <aside id="inventario-powerups">Inventario de PowerUPS</aside>
+
+                    
+            </div>
+            <aside id="side-menu">
+                <h2>Datos del Turno</h2>
+                <div id="datos-del-turno">
+                    <h2>Turno del Jugador: X</h2>
+                    <h2>Tablero del Jugador X</h2>
+                    <h2>Tiempo del Turno Restante: XX:XX</h2>
+                    <h2>PowerUP Actual: XXXXX</h2>
+                </div>
+                <h2>Inventario de PowerUPs</h2>
+                    <ul id="inventario-powerups">
+                        <li>Sonar 
+                            <ul class="descripcion-powerup">
+                            <li>Disponible mientras el submarino no haya sido hundido.</li>
+                            <li>Revela una casilla al azar de un barco enemigo.</li>
+                            <li>Costo: 5 puntos por uso.</li>
+                            </ul>
+                        </li>
+                        <li>Aviones de Ataque
+                            <ul class="descripcion-powerup">
+                                <li>Disponible mientras el portaaviones no haya sido hundido.</li>
+                                <li>Lanza hasta 5 misiles al azar en el tablero enemigo.</li>
+                                <li>Costo: 10 puntos por uso.</li>
+                            </ul>
+                        </li>
+                        <li>Mina Marina
+                            <ul class="descripcion-powerup">
+                                <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
+                                <li>Si el enemigo ataca una mina, recibe un "hit" adicional en una casilla adyacente al azar.</li>
+                                <li>Costo: 5 puntos para plantar</li>
+                            </ul>
+                        </li>
+                        <li>Escudo Defensivo
+                            <ul class="descripcion-powerup">
+                                <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
+                                <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
+                                <li>Costo: 15 puntos.</li>
+                            </ul>
+                        </li>
+                        <li>Misil Crucero
+                            <ul class="descripcion-powerup">
+                                <li>Ataque dirigido a un área de 3x3 casillas.</li>
+                                <li>Costo: 15 puntos.</li>
+                                <li>Tiempo de recarga: 5 turnos.</li>
+                            </ul>
+                        </li>
+                        <li>Reparación Rápida
+                            <ul  class="descripcion-powerup">
+                                <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
+                                <li>Costo: 10 puntos.</li>
+                                <li>Un solo uso por barco.</li>
+                            </ul>
+                        </li>
+                        <li>Ataque EMP
+                            <ul  class="descripcion-powerup">
+                                <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
+                                <li>Costo: 25 puntos.</li>
+                                <li>Tiempo de recarga: 10 turnos.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+            </aside>
+            <br>
+            <!-- <div class="tablero J2">
+                <div class="position guia">/</div>
+                <div class="position guia">A</div>
+                <div class="position guia">B</div>
+                <div class="position guia">C</div>
+                <div class="position guia">D</div>
+                <div class="position guia">E</div>
+                <div class="position guia">F</div>
+                <div class="position guia">G</div>
+                <div class="position guia">H</div>
+                <div class="position guia">i</div>
+                <div class="position guia">j</div>
+                <div class="position guia">1</div>
+                <div class="position 1A">[]</div>
+                <div class="position 1B">[]</div>
+                <div class="position 1C">[]</div>
+                <div class="position 1D">[]</div>
+                <div class="position 1E">[]</div>
+                <div class="position 1F">[]</div>
+                <div class="position 1G">[]</div>
+                <div class="position 1H">[]</div>
+                <div class="position 1I">[]</div>
+                <div class="position 1J">[]</div>
+                <div class="position guia">2</div>
+                <div class="position 2A">[]</div>
+                <div class="position 2B">[]</div>
+                <div class="position 2C">[]</div>
+                <div class="position 2D">[]</div>
+                <div class="position 2E">[]</div>
+                <div class="position 2F">[]</div>
+                <div class="position 2G">[]</div>
+                <div class="position 2H">[]</div>
+                <div class="position 2I">[]</div>
+                <div class="position 2J">[]</div>
+                <div class="position guia">3</div>
+                <div class="position 3A">[]</div>
+                <div class="position 3B">[]</div>
+                <div class="position 3C">[]</div>
+                <div class="position 3D">[]</div>
+                <div class="position 3E">[]</div>
+                <div class="position 3F">[]</div>
+                <div class="position 3G">[]</div>
+                <div class="position 3H">[]</div>
+                <div class="position 3I">[]</div>
+                <div class="position 3J">[]</div>
+                <div class="position guia">4</div>
+                <div class="position 4A">[]</div>
+                <div class="position 4B">[]</div>
+                <div class="position 4C">[]</div>
+                <div class="position 4D">[]</div>
+                <div class="position 4E">[]</div>
+                <div class="position 4F">[]</div>
+                <div class="position 4G">[]</div>
+                <div class="position 4H">[]</div>
+                <div class="position 4I">[]</div>
+                <div class="position 4J">[]</div>
+                <div class="position guia">5</div>
+                <div class="position 5A">[]</div>
+                <div class="position 5B">[]</div>
+                <div class="position 5C">[]</div>
+                <div class="position 5D">[]</div>
+                <div class="position 5E">[]</div>
+                <div class="position 5F">[]</div>
+                <div class="position 5G">[]</div>
+                <div class="position 5H">[]</div>
+                <div class="position 5I">[]</div>
+                <div class="position 5J">[]</div>
+                <div class="position guia">6</div>
+                <div class="position 6A">[]</div>
+                <div class="position 6B">[]</div>
+                <div class="position 6C">[]</div>
+                <div class="position 6D">[]</div>
+                <div class="position 6E">[]</div>
+                <div class="position 6F">[]</div>
+                <div class="position 6G">[]</div>
+                <div class="position 6H">[]</div>
+                <div class="position 6I">[]</div>
+                <div class="position 6J">[]</div>
+                <div class="position guia">7</div>
+                <div class="position 7A">[]</div>
+                <div class="position 7B">[]</div>
+                <div class="position 7C">[]</div>
+                <div class="position 7D">[]</div>
+                <div class="position 7E">[]</div>
+                <div class="position 7F">[]</div>
+                <div class="position 7G">[]</div>
+                <div class="position 7H">[]</div>
+                <div class="position 7I">[]</div>
+                <div class="position 7J">[]</div>
+                <div class="position guia">8</div>
+                <div class="position 8A">[]</div>
+                <div class="position 8B">[]</div>
+                <div class="position 8C">[]</div>
+                <div class="position 8D">[]</div>
+                <div class="position 8E">[]</div>
+                <div class="position 8F">[]</div>
+                <div class="position 8G">[]</div>
+                <div class="position 8H">[]</div>
+                <div class="position 8I">[]</div>
+                <div class="position 8J">[]</div>
+                <div class="position guia">9</div>
+                <div class="position 9A">[]</div>
+                <div class="position 9B">[]</div>
+                <div class="position 9C">[]</div>
+                <div class="position 9D">[]</div>
+                <div class="position 9E">[]</div>
+                <div class="position 9F">[]</div>
+                <div class="position 9G">[]</div>
+                <div class="position 9H">[]</div>
+                <div class="position 9I">[]</div>
+                <div class="position 9J">[]</div>
+                <div class="position guia">10</div>
+                <div class="position 10A">[]</div>
+                <div class="position 10B">[]</div>
+                <div class="position 10C">[]</div>
+                <div class="position 10D">[]</div>
+                <div class="position 10E">[]</div>
+                <div class="position 10F">[]</div>
+                <div class="position 10G">[]</div>
+                <div class="position 10H">[]</div>
+                <div class="position 10I">[]</div>
+                <div class="position 10J">[]</div>
+            </div>
+     -->
+            
             
 
         </main>

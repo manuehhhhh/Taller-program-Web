@@ -1,0 +1,15 @@
+h2{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 2.5rem;
+}
+h3{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 2rem;
+}
+ol, li{
+    padding: 1%;
+    margin: 1%;
+}
+

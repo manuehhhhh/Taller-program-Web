@@ -1,0 +1,23 @@
+h2{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 2.5rem;
+}
+p{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 1.8rem;
+    
+}
+#primer-parrafo{
+    float: left;
+    width: 70%;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+#imagen{
+    margin:1%;
+    width: 26%;
+}
