@@ -1,0 +1,26 @@
+input[type="text"] {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    width: 93%;
+    padding: 1%;
+    font-size: 1rem;
+    color: gray;
+}
+
+label{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 1.5rem;
+}
+
+form{
+    padding: 1%;
+    margin: 1%;
+}
+
+li{
+    padding: 1%;
+    margin: 1%;
+}

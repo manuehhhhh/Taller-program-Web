@@ -31,10 +31,21 @@ label{
     font-size: 1.5rem;
 }
 
+form{
+    padding: 1%;
+    margin: 1%;
+}
+
+/* 
 main a {
     text-decoration: none;
     color: black;
     padding: 0.5%;
     margin: 0.5%;
+    background-color: beige;
+} */
+
+a#boton-unirse{
+    width: 10%;
     background-color: beige;
 }

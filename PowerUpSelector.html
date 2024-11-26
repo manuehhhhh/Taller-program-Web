@@ -7,12 +7,26 @@
         <meta name="Description" content="Jugar Batalla Naval desde 2 a 4 personas" />
         <meta name="keywords" content="HTML, CSS, JS, Batalla Naval, juego" />
         <meta name="robots" content="noindex, nofollow" />
+        <link rel="stylesheet" href="power-ip-selector.css"/>
+        <link rel="stylesheet" href="barraDeNavegacion.css"/>
         <title>Batalla Naval | Instrucciones</title>
     </head>
     <body>
 
     <ul>
-        <h2>Crear Sala</h2>
+        <header>
+            <h1> <img src="icono-battleship.jpg"> Batalla Naval</h1>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="instrucciones.html">Instrucciones</a></li>
+                    <li><a href="jugar.html">Jugar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Crear Sala</h2>
         <form action="#" method="post">
             <label for="sala-ID">ID de la sala</label>
             <input type="text" name="sala-ID" id="sala-ID" maxlength="16" >
@@ -101,5 +115,6 @@
 
     </ul>
     <h3><a href="tablero.html">Iniciar Partida</a></h3>
+        </main>
     </body>
 </html>
