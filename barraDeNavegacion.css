@@ -2,6 +2,11 @@
 *{
     margin: 0%;
     padding: 0%;
+    
+}
+
+body{
+    overflow-x: hidden;
 }
 
 header{
@@ -19,7 +24,9 @@ header h1{
     width: 40%;
     vertical-align: bottom;
     line-height: 2.5rem;
-    border-bottom: 2px solid darkblue;
+    background-color: #333333;
+    color: lightgray;
+    border-bottom: 10px solid #888888;
 } 
 
 nav.navbar{
@@ -37,15 +44,15 @@ header li{
     text-decoration: none;
     list-style-type: none;
     font-size: 2rem;
+    border-bottom: 10px solid #888888;
     padding: 0px;
     margin: 0px;
     width: 33.33%;
     height: 1.5em;
-    background-color:white;
-    color: black;
+    background-color: #333333;
+    color: lightgray;
     text-align: center;
     line-height: 2.5rem;
-    border-bottom: 2px solid darkblue;
 }
 
 header a{
@@ -59,10 +66,19 @@ header a{
 header h1 img {
     height: 100%;
     float: left;
+    text-align: center;
 }
 
-header a:hover, header h1:hover {
-    background-color: rgb(2, 153, 153);
-    color: white;
+header a:hover {
+    background-color: rgb(0, 101, 253);
+    color: lightblue;
 }
 
+header h1:hover  {
+    background-color: rgb(0, 101, 253);
+    color: lightblue;
+}
+
+main *{
+    background-color: #353434;
+}

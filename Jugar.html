@@ -26,19 +26,22 @@
             <h2>Modos de Juego</h2>
             <h3>Modo Normal</h3>
                 <ul>
-                    <li><h4><a href="powerUpSelector.html">Crear Sala</a></h4></li>
+                    <li>
+                        <h4>Establecer Sala</h4>
+                        <h4><a href="powerUpSelector.html">Crear Sala</a></h4></li>
                     <li>
                         <h4>Unirse a Sala</h4>
                         <form action="#" method="post">
                             <label for="nombre-jugador">Nombre jugador</label>
-                            <input type="text" name="nombre-jugador" id="nombre-jugador" maxlength="16" > 
+                            <input type="text" name="nombre-jugador" id="nombre-jugador" maxlength="16" placeholder="Manuel Martinez" > 
                             <label for="sala-ID">ID de la sala</label>
-                            <input type="text" name="sala-ID" id="sala-ID" maxlength="16" >
+                            <input type="text" name="sala-ID" id="sala-ID" maxlength="16" placeholder="sala1234" >
                         </form>
-                        <h4><a href="tablero.html" id="boton-unirse">Entrar</a></h4>
+                        <h4 id="boton-unirse"><a href="tablero.html">Entrar</a></h4>
                     </li>
                 </ul>
-            <h3><a href="torneo.html">Modo Torneo</a></h3>
+            <h3>Modo Torneo</h3>
+            <h3 id="torneo-botton"><a href="torneo.html">Unirse al Torneo Actual</a></h3>
         </main>
         
     </body>

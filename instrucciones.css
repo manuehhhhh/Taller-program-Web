@@ -1,15 +1,55 @@
 h2{
     padding: 0.5%;
-    margin: 0.5%;
     font-size: 2.5rem;
+    color:beige;
 }
 h3{
     padding: 0.5%;
-    margin: 0.5%;
     font-size: 2rem;
+    color:beige;
 }
 ol, li{
-    padding: 1%;
-    margin: 1%;
+    padding-left: 4%;
+    color:beige;
+    list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+    color:lightskyblue;
+    border: 0.1rem hidden;
+    border-radius: 0.5rem;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+a:hover{
+    color:white;
+    font-weight: bold;
+    background-color: rgb(98, 202, 236);
+
+}
+
+
+nav#indice-instrucciones li{
+    padding-top: 0.5%;
+    padding-bottom: 1.5%;
+    padding-left: 0.5%;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 100%;
+}
+
+section#instrucciones{
+    border-top: 0.25rem solid rgba(211, 211, 211, 0.288);
+    padding-top: 3rem;
+}
+
+section#instrucciones ol{
+    padding-left: 1%;
+}
+
+section#instrucciones ol li h4{
+    padding: 0.5%;
+    font-size: 1.8rem;
+}

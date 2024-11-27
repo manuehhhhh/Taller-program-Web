@@ -1,33 +1,61 @@
+main{
+    color: beige;
+}
+
 h2{
-    padding: 0.5%;
-    margin: 0.5%;
+    border: 1% solid #353434 ;
+    padding: 1%;
+    text-align: center;
     font-size: 2rem;
 }
 h3{
-    padding: 0.5%;
-    margin: 0.5%;
+    padding: 1%;
+    text-align: center;
     font-size: 1.8rem;
+    border-top: 0.5rem solid gray;
 }
 h4{
-    padding: 0.5%;
-    margin: 0.5%;
+    padding: 1%;
+    text-align: center;
     font-size: 1.5rem;
 }
 
+main ul li:first-of-type{
+    padding-bottom: 1%;
+    border-bottom: 0.2rem solid gray;
+    border-top: 0.2rem solid gray;
+}
+
+main ul{
+    list-style-type: none;
+}
+
+a:hover{
+    background: lightblue;
+}
+
 input {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-    width: 93%;
+    background-color: beige;
+    width: 50%;
     padding: 1%;
     font-size: 1rem;
     color: gray;
+    border: 0.3rem solid rgb(0, 26, 255);
+    border-radius: 0.5rem;
 }
 
+input:placeholder-shown {
+    border: 0.3rem solid red;
+    border-radius: 0.5rem;
+  }
+
 label{
-    padding: 0.5%;
-    margin: 0.5%;
+    margin: 25%;
+    padding: 0%;
     font-size: 1.5rem;
 }
 
@@ -36,16 +64,37 @@ form{
     margin: 1%;
 }
 
-/* 
+
 main a {
     text-decoration: none;
     color: black;
     padding: 0.5%;
     margin: 0.5%;
     background-color: beige;
-} */
+}
 
-a#boton-unirse{
+
+
+h4#boton-unirse a{
     width: 10%;
     background-color: beige;
 }
+
+h4#boton-unirse a:hover{
+    margin: 0.5%;
+    text-align: center;
+    width: 10%;
+    background-color: lightblue;
+}
+
+h4#boton-unirse{
+    border: 1% solid #353434 ;
+    padding: 2%;
+    text-align: center;
+}
+
+h3#torneo-botton{
+    padding: 5%;
+    border: none;
+}
+
