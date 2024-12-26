@@ -1,11 +1,12 @@
 h2{
     padding: 1%;
     font-size: 2.5rem;
+    color:aliceblue;
 }
 p{
     padding: 1%;
     font-size: 1.8rem;
-    
+    color:aliceblue;
 }
 #primer-parrafo{
     float: left;
@@ -13,7 +14,7 @@ p{
 }
 p a{
     text-decoration: none;
-    color: black;
+    color: aliceblue;
 }
 #imagen{
     width: 27%;

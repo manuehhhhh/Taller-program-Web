@@ -1,36 +1,50 @@
+:root{
+    --anchura-tablero: 50%;
+    --padding-tablero: 2%;
+
+    --border-casillas: 0.1rem;
+
+    --anchura-sidemenu:50%;
+    --altura-sidemenu: 100%;
+    --padding-sidemenu: 2%;
+}
+
 .tablero {
-    width: 50%;
-    padding: 2%;
+    width: var(--anchura-tablero);
+    height: 100%;
+    padding: var(--padding-tablero);
     margin: 0%;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    /* grid-auto-rows: auto; */
-    /* grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto); */
 }
+
+.tablero.J2{
+    display: none;
+}
+
 .position{
     aspect-ratio: 1;
-    border-width: 1px;
+    border-width: var(--border-casillas);
     border-style: solid;
     text-align: center;
-    background-image: url('oceantile.png');
+    background-image: url('./Imagenes/oceantile.png');
     background-size: contain;
 }
 
 .position.barco-top{
-    background-image: url('barco-front.png');
+    background-image: url('./Imagenes/barco-front.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .position.barco-mid{
-    background-image: url('barco-mid.png');
+    background-image: url('./Imagenes/barco-mid.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .position.barco-bottom{
-    background-image: url('barco-bottom.png');
+    background-image: url('./Imagenes/barco-bottom.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -47,22 +61,21 @@
 
 .guia{
     background-color: lightblue;
-    background-image: url('sandtile1.png');
+    background-image: url('./Imagenes/sandtile1.png');
     background-size: contain;
 }
+
+
 main{
     display:flex;
-    /* align-items: center; */
     justify-content: center;
 }
+
 aside {
-    width: 50%;
-    height: 100%;
+    width: 46%;
     padding: 2%;
-    /* margin-top: 2%;
-    margin-right: 1%;
-    margin-left: 1%; */
-    border: 2px, solid, blue;
+    height: 100%;
+    /* border: 2px, solid, blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,10 +90,30 @@ div#datos-del-turno{
 div#datos-del-turno h2{
     display: block;
     width: 95%;
-    border: 1px;
+    padding: 1%;
     border-radius: 5px;
     margin: 0.5%;
     background-color: rgb(0, 94, 255);
+}
+
+div#datos-del-turno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#control-tablero h2{
+    display: block;
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 0.5%;
+    background-color: rgb(0, 94, 255);
+}
+
+div#control-tablero h2:hover{
+    background-color: white;
 }
 
 ul#inventario-powerups{
@@ -130,6 +163,7 @@ ul.descripcion-powerup li{
     padding: 0px;
     margin: 0px;
     border: none;
+    background-color: lightblue;
 }
 
 li:hover .descripcion-powerup{
@@ -138,6 +172,7 @@ li:hover .descripcion-powerup{
     padding: 0px;
     margin: 0px;
     border: none;
+    background-color: lightblue;
 }
 
 ul#inventario-powerups li ul.descripcion-powerup li{
@@ -146,6 +181,7 @@ ul#inventario-powerups li ul.descripcion-powerup li{
     padding: 0px;
     margin: 0px;
     border: none;
+    background-color: lightblue;
 }
 
 aside h2 {

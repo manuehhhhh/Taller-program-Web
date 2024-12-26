@@ -15,9 +15,11 @@ label{
 li{
     padding: 1%;
     margin: 1%;
+    font-size: medium;
+    color:aliceblue;
 }
 
-input {
+input[type=text]{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 0.5%;
@@ -34,10 +36,70 @@ input {
 input:placeholder-shown {
     border: 0.3rem solid red;
     border-radius: 0.5rem;
-  }
+}
 
 label{
     margin: 25%;
     padding: 0%;
     font-size: 1.5rem;
+    width: 100%;
+    color:gold;
+}
+
+input[type="checkbox"]{
+    box-sizing: border-box;
+    width: 2rem;
+    height: 2rem;
+    margin: 0%;
+    padding: 0;
+    border: 0.2rem solid white;
+    border-radius: 0.2rem;
+    appearance: none;
+    background-color: gainsboro;
+    outline: none;
+    transition: outline 0.1s;
+}
+
+input[type="checkbox"]:checked {
+    /* background-size: cover; */
+    padding: 2px;
+    background-color:lightgreen;
+}
+
+input[type="checkbox"]:hover{
+    outline: 6px solid rgba(30, 120, 255, 0.397);
+    transform: scale(1.05);
+}
+
+label.checkbox-laber{
+    margin:0%;
+    padding-left:3%;
+    font-size: 2rem;
+    color:white;
+}
+
+input[type="number"]{
+    width: 2rem;
+    height: 2rem;
+}
+
+h2, h3{
+    font-size: 2.2rem;
+    margin: 2%;
+    padding: 0%;
+    color:gold;
+}
+
+h3 a{
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 1%;
+    border-radius: 0.5rem;
+    border-radius: 1px solid;
+}
+
+h3 a:hover{
+    color: black;
+    background-color: lightblue;
 }

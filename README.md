@@ -1,6 +1,4 @@
 # Taller-program-Web
 taller de batalla naval
 # Objetivo
-No morir por las bajadas de luz
-# a
-Vamos avanzando
+Se realiza el esquema basico de todas las paginas, con colores, fotos y fondos tentativos.

@@ -1,12 +1,33 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+  
+    --board-columns: 10;
+    --board-rows: 10;
+    --board-width: 240px;
+    --board-height: auto;
+  
+    --altura-navbar: 1.5em;
+    --altura-letra-navbar: 2.5rem;
+
+    --color-background-hover-navbar: rgb(0, 101, 253);
+    --color-letra-hover-navbar: lightblue;
+    --color-letra-navbar: lightgray;
+    --color-backgroud-general: #333333;
+
+    --anchura-border-navbar: 0.2rem;
+    --estilo-border-navbar: solid;
+    --color-border-navbar: #888888;
+  }
+
 
 *{
     margin: 0%;
-    padding: 0%;
-    
+    padding: 0%; 
 }
 
 body{
     overflow-x: hidden;
+    background-color: var(--color-backgroud-general);
 }
 
 header{
@@ -20,13 +41,13 @@ header{
 header h1{
     display: inline;
     float:left;
-    height: 1.5em;
+    height: var(--altura-navbar);
     width: 40%;
     vertical-align: bottom;
-    line-height: 2.5rem;
-    background-color: #333333;
-    color: lightgray;
-    border-bottom: 10px solid #888888;
+    line-height: var(--altura-letra-navbar);
+    background-color: var(--color-backgroud-general);
+    color: var(--color-letra-navbar);
+    border-bottom: var(--anchura-border-navbar) var(--estilo-border-navbar) var(--color-border-navbar);
 } 
 
 nav.navbar{
@@ -44,15 +65,15 @@ header li{
     text-decoration: none;
     list-style-type: none;
     font-size: 2rem;
-    border-bottom: 10px solid #888888;
+    border-bottom: var(--anchura-border-navbar) var(--estilo-border-navbar) var(--color-border-navbar);
     padding: 0px;
     margin: 0px;
     width: 33.33%;
-    height: 1.5em;
-    background-color: #333333;
-    color: lightgray;
+    height: var(--altura-navbar);
+    background-color: var(--color-backgroud-general);
+    color: var(--color-letra-navbar);
     text-align: center;
-    line-height: 2.5rem;
+    line-height: var(--altura-letra-navbar);
 }
 
 header a{
@@ -70,15 +91,15 @@ header h1 img {
 }
 
 header a:hover {
-    background-color: rgb(0, 101, 253);
-    color: lightblue;
+    background-color: var(--color-background-hover-navbar);
+    color: var(--color-letra-hover-navbar);
 }
 
 header h1:hover  {
-    background-color: rgb(0, 101, 253);
-    color: lightblue;
+    background-color: var(--color-background-hover-navbar);
+    color: var(--color-letra-hover-navbar);
 }
 
-main *{
+/* main *{
     background-color: #353434;
-}
+} */

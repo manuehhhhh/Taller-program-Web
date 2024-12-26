@@ -13,7 +13,7 @@
     </head>
     <body>
 
-    <ul>
+    
         <header>
             <h1> <img src="icono-battleship.jpg"> Batalla Naval</h1>
             <nav class="navbar">
@@ -39,75 +39,76 @@
 
             
             <h3>Power UPs</h3>
-            <li>
-                <input type="checkbox" id="sonar" name="sonar" value="sonar"  >
-                <label for="sonar">Sonar</label><br>
-                <ul>
-                    <li>Disponible mientras el submarino no haya sido hundido.</li>
-                    <li>Revela una casilla al azar de un barco enemigo.</li>
-                    <li>Costo: 5 puntos por uso.</li>
-                </ul>
-                
-            </li>
-            <li>
-                <input type="checkbox" id="aviones-de-ataque" name="aviones-de-ataque" value="aviones-de-ataque" >
-                <label for="aviones-de-ataque">Aviones de Ataque</label><br>
-                <ul>
-                    <li>Disponible mientras el portaaviones no haya sido hundido.</li>
-                    <li>Lanza hasta 5 misiles al azar en el tablero enemigo.</li>
-                    <li>Costo: 10 puntos por uso.</li>
-                </ul>
-                
-            </li>
-            <li>
-                <input type="checkbox" id="mina-marina" name="mina-marina" value="mina-marina"  >
-                <label for="mina-marina">Mina Marina</label><br>
-                <ul>
-                    <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
-                    <li>Si el enemigo ataca una mina, recibe un "hit" adicional en una casilla adyacente al azar.</li>
-                    <li>Costo: 5 puntos para plantar</li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="Escudo-defensivo" name="Escudo-defensivo" value="Escudo-defensivo"  >
-                <label for="Escudo-defensivo">Escudo Defensivo</label><br>
-                <ul>
-                    <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
-                    <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
-                    <li>Costo: 15 puntos.</li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="misil-crucero" name="misil-crucero" value="misil-crucero">
-                <label for="misil-crucero">Misil Crucero</label><br>
-                <ul>
-                    <li>Ataque dirigido a un área de 3x3 casillas.</li>
-                    <li>Costo: 15 puntos.</li>
-                    <li>Tiempo de recarga: 5 turnos.</li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="reparación-rápida" name="reparación-rápida" value="reparación-rápida">
-                <label for="reparación-rápida">Reparación Rápida</label><br>
-                <ul>
-                    <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
-                    <li>Costo: 10 puntos.</li>
-                    <li>Un solo uso por barco.</li>
-                </ul>
-            </li>
-            <li>
-                <input type="checkbox" id="ataque-EMP" name="ataque-EMP" value="ataque-EMP"  >
-                <label for="ataque-EMP">Ataque EMP</label><br>
-                <ul>
-                    <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
-                    <li>Costo: 25 puntos.</li>
-                    <li>Tiempo de recarga: 10 turnos.</li>
-                </ul>
-            </li>
+            <ul id="lista-powerup">
+                <li>
+                    <input type="checkbox" id="sonar" name="sonar" value="sonar"  >
+                    <label for="sonar" class="checkbox-laber">Sonar</label><br>
+                    <ul>
+                        <li>Disponible mientras el submarino no haya sido hundido.</li>
+                        <li>Revela una casilla al azar de un barco enemigo.</li>
+                        <li>Costo: 5 puntos por uso.</li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <input type="checkbox" id="aviones-de-ataque" name="aviones-de-ataque" value="aviones-de-ataque" >
+                    <label for="aviones-de-ataque"  class="checkbox-laber">Aviones de Ataque</label><br>
+                    <ul>
+                        <li>Disponible mientras el portaaviones no haya sido hundido.</li>
+                        <li>Lanza hasta 5 misiles al azar en el tablero enemigo.</li>
+                        <li>Costo: 10 puntos por uso.</li>
+                    </ul>
+                    
+                </li>
+                <li>
+                    <input type="checkbox" id="mina-marina" name="mina-marina" value="mina-marina"  >
+                    <label for="mina-marina"  class="checkbox-laber">Mina Marina</label><br>
+                    <ul>
+                        <li>Los jugadores pueden plantar una mina en su propio tablero.</li>
+                        <li>Si el enemigo ataca una mina, recibe un "hit" adicional en una casilla adyacente al azar.</li>
+                        <li>Costo: 5 puntos para plantar</li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="Escudo-defensivo" name="Escudo-defensivo" value="Escudo-defensivo"  >
+                    <label for="Escudo-defensivo"  class="checkbox-laber">Escudo Defensivo</label><br>
+                    <ul>
+                        <li>Protege una región de 3x3 casillas durante 3 turnos.</li>
+                        <li>Los ataques en el área protegida son anulados y el enemigo recibe un mensaje de "Bloqueado".</li>
+                        <li>Costo: 15 puntos.</li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="misil-crucero" name="misil-crucero" value="misil-crucero">
+                    <label for="misil-crucero"  class="checkbox-laber">Misil Crucero</label><br>
+                    <ul>
+                        <li>Ataque dirigido a un área de 3x3 casillas.</li>
+                        <li>Costo: 15 puntos.</li>
+                        <li>Tiempo de recarga: 5 turnos.</li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="reparación-rápida" name="reparación-rápida" value="reparación-rápida">
+                    <label for="reparación-rápida"  class="checkbox-laber">Reparación Rápida</label><br>
+                    <ul>
+                        <li>Restaura hasta 2 casillas de un barco dañado (no hundido).</li>
+                        <li>Costo: 10 puntos.</li>
+                        <li>Un solo uso por barco.</li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="checkbox" id="ataque-EMP" name="ataque-EMP" value="ataque-EMP"  >
+                    <label for="ataque-EMP"  class="checkbox-laber">Ataque EMP</label><br>
+                    <ul>
+                        <li>Desactiva todas las funciones especiales del enemigo durante 3 turnos.</li>
+                        <li>Costo: 25 puntos.</li>
+                        <li>Tiempo de recarga: 10 turnos.</li>
+                    </ul>
+                </li>
+            </ul>
         </form>
         <br>
 
-    </ul>
     <h3><a href="tablero.html">Iniciar Partida</a></h3>
         </main>
     </body>
